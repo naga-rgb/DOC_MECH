@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#C5F0F8"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff4500"
+            android:textAlignment="center"
+            android:text="Terms And Conditions"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:text="=> This is a Door step Bike servicing App."
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:text="=> Here you can Advertise your store and get more number of services."
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:text="=> The services from this app has been tracked and your store have pay us 20% of
+total amount that you have got from the services."
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:text="=> Be Fare with your prices and other things users can Fire a complaint on your shop or an specific mechanic in your store."
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:text="=>By providing best services your store can reach out to many customers."
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:text="=> Be Transparent with the services do only what the customer asks and not other than that."
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Best Wishes, Team Doc MECH"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

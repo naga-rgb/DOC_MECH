@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/f"
+    android:orientation="vertical"
+    tools:context=".change_auth">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR AUTHENTICATION"
+        android:textColor="#ff4500"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginTop="6dp"
+        android:text="*For security Reasons Please Logout and Login again to change authenticators."
+        android:fontFamily="sans-serif-condensed-light"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="CHANGE YOUR AUTH EMAIL"
+        android:fontFamily="sans-serif-condensed-light"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="20dp"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/update_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="CHANGE YOUR AUTH PASSWORD"
+        android:fontFamily="sans-serif-condensed-light"/>
+
+</LinearLayout>

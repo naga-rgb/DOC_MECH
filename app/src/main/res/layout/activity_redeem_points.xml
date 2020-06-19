@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f"
+    tools:context=".redeem_points">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mechanic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#ff4500"
+        android:text="REDEEM POINTS"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-light"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="*ASK THE USER TO AUTHENTICATE"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:hint="EMAIL"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed-light"/>
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed-light"/>
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview"
+        android:fontFamily="sans-serif-condensed-light"
+        android:padding="10dp"
+        android:text="VIEW COINS"
+        android:textColor="#000" />
+    <EditText
+        android:id="@+id/old_coins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:hint="OLD COINS"
+        android:visibility="invisible"
+        android:inputType="number"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed-light"/>
+    <EditText
+        android:id="@+id/new_coins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:hint="NEW COINS"
+        android:visibility="invisible"
+        android:inputType="number"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed-light"/>
+
+    <Button
+        android:id="@+id/redeem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview"
+        android:text="REDEEM COINS"
+        android:visibility="invisible"
+        android:fontFamily="sans-serif-condensed-light"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

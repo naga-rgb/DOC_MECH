@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f"
+    tools:context=".offers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".offers">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:text="OFFERS"
+            android:fontFamily="sans-serif-condensed-light"/>
+
+        <EditText
+            android:id="@+id/offer_name"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:hint="OFFER NAME"
+
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/offer_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="10dp"
+            android:hint="OFFER DESCRIPTION"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/textview"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="#000000"
+            android:text="ADD OFFER"/>
+
+        <ImageView
+            android:id="@+id/redeem"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/redeem"
+            android:layout_marginTop="15dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/swipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:text="swipe to delete>>"
+            android:visibility="gone"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+</ScrollView>

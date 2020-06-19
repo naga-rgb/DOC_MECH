@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f"
+    tools:context=".my_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="PROFILE"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#ff4500"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_crop"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/change_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHANGE PHOTO"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/textview"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+
+        <EditText
+            android:id="@+id/shop_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="SHOP NAME"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/owner_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OWNER NAME"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SHOP LOCATION"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MOBILE"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:inputType="phone"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/textview"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:text="UPDATE"/>
+
+        <Button
+            android:id="@+id/auth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/textview"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="CREDENTIALS"/>
+    </LinearLayout>
+
+</ScrollView>
